@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- UNICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- BOX ICONS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Portofolio | Muhammad Sutan Fathir</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Sutan Fathir</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#skills" class="nav-link">Skills</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#portofolio" class="nav-link">Portofolio</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- MAIN -->
+      <main class="wrapper">
+        <!-- FEATURED BOX -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Muhammad Sutan Fathir</span>
+            </div>
+            
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Crafting seamless Android experiences with clean code and modern design.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="assets/file/Curriculum Vitae_Muhammad Sutan Fathir.pdf" class="btn" target="_blank">
+                Download CV <i class="uil uil-file-download-alt"></i>
+              </a>
+            </div>
+            
+            <div class="social_icons">
+              <a href="https://www.instagram.com/sutan.fthr" target="_blank" class="icon">
+                <i class="uil uil-instagram-alt"></i>
+              </a>
+              <a href="https://github.com/MuhammadSutanFathir" target="_blank" class="icon">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-sutan-fathir-7a4879311/" target="_blank" class="icon">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </div>            
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/profile.jpg" alt="avatar" loading="lazy" />
+            </div>
+          </div>
+        </section>
+        <!-- SKILL BOX -->
+        <section class="section" id="skills">
+          <div class="top-header">
+            <h1>Skills</h1>
+          </div>
+          <div class="skill-container">
+            <div class="skill-box">
+              <i class="uil uil-android"></i>
+              <h3>Android Kotlin</h3>
+              <label>Developed Android apps with Kotlin or Java using MVVM and Jetpack Compose. Proficient in Android Studio and Material Design.</label>
+            </div>
+            <div class="skill-box">
+              <i class="uil uil-vector-square"></i>
+              <h3>UI/UX Designer</h3>
+              <label>Designed user-centric interfaces with Figma. Focused on user experience, accessibility, and design systems.</label>
+            </div>
+            <div class="skill-box">
+              <i class="bx bxl-flutter"></i>
+              <h3>Flutter</h3>
+              <label>Cross-platform development using Dart and Flutter SDK. Built mobile UI with widgets and responsive layouts.</label>
+            </div>
+          </div>
+        </section>
+        <!-- PORTOFOLIO -->
+        <section class="section" id="portofolio">
+          <div class="top-header">
+            <h1>Portofolio</h1>
+          </div>
+        
+          <div class="portfolio-container">
+            <div class="portfolio-item">
+              <img src="assets/images/eyecon.png" alt="Asclepius">
+              <div class="portfolio-content">
+                <h3>EYECON</h3>
+                <p>A mobile app to analyze eye conditions caused by excessive screen time, built with Android and ML during the Bangkit Academy Capstone Project.</p>
+                <a href="https://github.com/MuhammadSutanFathir/EYECON.git" target="_blank">View Project</a>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="assets/images/phasmophobia.jpg" alt="Phasmophobia app">
+              <div class="portfolio-content">
+                <h3>Phasmophobia app</h3>
+                <p>Horror-themed Android app using Jetpack Compose with ghost list, detail, favorite feature and modern UI.</p>
+                <a href="https://github.com/MuhammadSutanFathir/Phasmophobia-app.git" target="_blank">View Project</a>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="assets/images/premier_league.png" alt="Premier League app">
+              <div class="portfolio-content">
+                <h3>Premier League app</h3>
+                <p>Football app with club list, details, and favorites. Built using Clean Architecture.</p>
+                <a href="https://github.com/MuhammadSutanFathir/Premier-League-app.git" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- CONTACT BOX -->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a skill in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope-alt"></i> Email:
+                  muhammadsutanfathir@gmail.com
+                </p>
+                <p><i class="uil uil-phone-alt"></i> Tel: +6289536xxxxxxx</p>
+              </div>
+            </div>
+            <div class="col">
+              <form id="contact-form" action="https://formspree.io/f/mzzejnje" 
+              method="POST" 
+              class="form-control">
+                <div class="form-inputs">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="input-field"
+                    placeholder="Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="input-field"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="text-area">
+                  <textarea name="message" id="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-button">
+                  <button type="submit" class="btn">
+                    Send <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#portofolio">Portofolio</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icon">
+          <a href="https://www.instagram.com/sutan.fthr" target="_blank" class="icon">
+            <i class="uil uil-instagram-alt"></i>
+          </a>
+          <a href="https://github.com/MuhammadSutanFathir" target="_blank" class="icon">
+            <i class="uil uil-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-sutan-fathir-7a4879311/" target="_blank" class="icon">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>     
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Muhammad Sutan Fathir</a> -
+            All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- TYPING JS LINK -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- SCROLLREVEAL JS LINK -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
