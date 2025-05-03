@@ -723,6 +723,18 @@ footer {
   .contact-info p i {
     margin-right: 6px; /* Mengurangi jarak ikon */
   }
+
+  .contact-info p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-info p i {
+    margin-bottom: 5px; /* Memberi jarak antara ikon dan teks */
+  }
+  
 }
 @media (max-width: 768px) {
   .contact-info {
